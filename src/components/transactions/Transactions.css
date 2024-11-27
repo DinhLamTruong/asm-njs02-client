@@ -1,0 +1,44 @@
+.tableContainer {
+  margin: auto;
+  width: 100%;
+  max-width: 1024px;
+  margin-top: 32px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #d0d9db;
+  padding: 8px;
+  text-align: left;
+  max-width: 260px;
+  word-wrap: break-word;
+}
+
+thead {
+  background-color: #32a4c1;
+  color: white;
+}
+thead th:first-child {
+  width: 32px;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+
+.statusBtn {
+  cursor: pointer;
+  border-radius: 6px;
+  padding: 4px 6px;
+  text-transform: capitalize;
+  font-size: 16px;
+  background-color: #f69685;
+  border: none;
+}
+/* #f69685 Booked */
+/* #39d139 ckeckin */
+/* #d3d0f2 ckout */
